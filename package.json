@@ -11,11 +11,13 @@
   },
   "dependencies": {
     "@gsap/react": "^2.1.0",
+    "@heroicons/react": "^2.2.0",
     "@react-three/drei": "^9.101.0",
     "@react-three/fiber": "^8.15.19",
     "@sentry/react": "^7.106.0",
     "@sentry/vite-plugin": "^2.14.3",
     "gsap": "^3.12.5",
+    "lucide-react": "^0.522.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "three": "^0.162.0"

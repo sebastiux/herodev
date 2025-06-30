@@ -1,15 +1,13 @@
 import {
   blackImg,
   blueImg,
-  highlightFirstVideo,
-  highlightFourthVideo,
-  highlightSecondVideo,
-  highlightThirdVideo,
+  honorV2HorizontalVideo,
+  lamborghiniUrusV3Video,
   whiteImg,
   yellowImg,
 } from "../utils";
 
-export const navLists = ["Store", "Mac", "iPhone", "Support"];
+export const navLists = ["HERO", "ABOUT", "CONTACT US", "WORK WITH US", "FOLLOW US"];
 
 export const hightlightsSlides = [
   {
@@ -19,13 +17,13 @@ export const hightlightsSlides = [
       "Game‑changing chip.",
       "Groundbreaking performance.",
     ],
-    video: highlightFirstVideo,
+    video: honorV2HorizontalVideo,
     videoDuration: 4,
   },
   {
     id: 2,
     textLists: ["Titanium.", "So strong. So light. So Pro."],
-    video: highlightSecondVideo,
+    video: lamborghiniUrusV3Video,
     videoDuration: 5,
   },
   {
@@ -35,13 +33,13 @@ export const hightlightsSlides = [
       "longest optical zoom in",
       "iPhone ever. Far out.",
     ],
-    video: highlightThirdVideo,
+    video: honorV2HorizontalVideo,
     videoDuration: 2,
   },
   {
     id: 4,
     textLists: ["All-new Action button.", "What will yours do?."],
-    video: highlightFourthVideo,
+    video: lamborghiniUrusV3Video,
     videoDuration: 3.63,
   },
 ];
